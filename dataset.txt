@@ -1,0 +1,24 @@
+数据集调研
+Headline Generation paper中用的
+* Paper1: Neural Headline Generation on Abstract Meaning Representation 
+Gigaword  DUC  并给出数据链接 https://github.com/harvardnlp/sent-summary 这个链接下有Gigaword 和CNN/DM
+Gigaword，该数据集包括了六大主流媒体机构的新闻文章，包括纽约时报和美联社，每篇文章都有清晰的内容和标题，并且内容被划分为段落。经过一些预处理之后，训练集包括5.5M篇新闻和236M单词。
+* Paper2: Neural Headline Generation with Sentence-wise Optimization
+Gigaword DUC LCSTS(Chinese)
+* Paper3: A Novel Repetition Normalized Adversarial Reward for Headline Generation
+Gigaword
+Gigaword原文数据介绍：
+http://papers.nips.cc/paper/5945-teaching-machines-to-read-and-comprehend.pdf
+Gigaword 各模型performance对比：
+https://paperswithcode.com/sota/text-summarization-on-gigaword
+DUC只有500条，一般都是用来做测试的！！！
+LCSTS：哈工大 微博数据集
+https://arxiv.org/pdf/1506.05865.pdf
+
+Summarization paper中用的
+Paper: Get To The Point: Summarization with Pointer-Generator Networks (是摘要)
+CNN/DM https://github.com/abisee/cnn-dailymail 有预训练好的模型
+CNN/DM 各模型performance对比 https://paperswithcode.com/sota/document-summarization-on-cnn-daily-mail
+另一个中文数据集：Chinese Gigaword 
+数据地址：https://catalog.ldc.upenn.edu/LDC2003T09
+基本信息：包含两个media，Central News Agency of Taiwan / Xinhua News Agency of Beijing
